@@ -1,0 +1,81 @@
+.patBalance {
+    display: flex;
+
+    width: var(--width-table);
+    height: 55rem;
+    border-radius: 0 10px 10px 0;
+
+    background: var(--color-background);
+}
+
+.lateralOne {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    width: calc((var(--width-patBalance) / 2) - 0.5rem);
+    height: 55rem;
+}
+
+.lateralTwo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    width: calc((var(--width-pa) / 2) - 0.5rem);
+    height: 55rem;
+}
+
+.divTitle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 3rem;
+
+    background: var(--color-bars-principal);
+}
+
+.divTitleSecondary {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 3rem;
+
+    background: var(--color-bars-secondary);
+}
+
+.PrincipalTexts {
+    font-size: 1.3rem;
+    color: white;
+}
+
+.centerLine {
+    width: 1rem;
+    height: 55rem;
+
+    background: var(--color-green);
+}
+
+.lateralTwo {
+    display: flex;
+    flex-direction: column;
+
+    width: calc((var(--width-patBalance) / 2) - 0.5rem);
+    height: 55rem;
+}
+
+.withRealValue {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 1rem 0 1rem;
+}
+
+.divLatTwoPassTop {
+    border-radius: 0 10px 0 0;
+}
+
+.divLatTwoPassBottom {
+    border-radius: 0 0 10px 0;
+}

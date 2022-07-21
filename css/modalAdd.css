@@ -1,0 +1,126 @@
+.modalAdd {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    z-index: 1;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+.open {
+    display: flex;
+}
+
+.modalAddContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding: 30px;
+    width: 37.5rem;
+    height: 37.5rem;
+    border-radius: 10px;
+
+    background-color: var(--color-background);
+}
+
+p {
+    color: white;
+}
+
+.modalAddContent > p:first-child {
+    font-size: 1.5rem;
+}
+
+.modalAddContent p:nth-child(2) {
+    font-size: 1.2rem;
+}
+
+.tableSelect {
+    display: flex;
+    justify-content: space-between;
+    width: 31.25rem;
+    height: 9.37rem;
+
+    margin: 1rem;
+    padding: 1.5rem;
+    border-radius: 10px;
+
+    background-color: var(--color-bars-secondary);
+}
+
+.tableSelect > div:nth-child(1) {
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+    color:white;
+}
+
+.selectsInputsLabel {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.tableSelect > div:nth-child(1) p, .tableSelect > div:nth-child(2) p {
+    font-size: 1.2rem;
+}
+
+.tableSelect > div:nth-child(2) {
+    display: flex;
+    flex-direction: column;
+    color:white;
+}
+
+input[type="radio"] {
+    width: 1.3rem;
+    height: 1.3rem;
+    font-size:2rem;
+    cursor: pointer;
+}
+
+.inputsInfos {
+    display: flex;
+    flex-direction: column;
+    width: 31.25rem;
+    height: 5rem;
+    margin: 1rem;
+}
+
+.inputsInfos label {
+    display: flex;
+    align-items: center;
+    font-size: 1.2rem;
+    color: white;
+}
+
+.inputsInfos input {
+    width: 31.25rem;
+    height: 3.25rem;
+    padding: 0.5rem;
+    border-radius: 10px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    width: 31.25rem;
+    height: 3.12rem;
+    margin: 0.5rem;
+}
+
+.buttons button {
+    width: 12.5rem;
+    border-radius: 10px;
+    color: white;
+    font-size: 1.4rem;
+    font-weight: 500;
+    cursor: pointer;
+    background-color: var(--color-green-button);
+}
+
+.buttons button:nth-child(2) {
+    background-color: var(--color-red-button);
+}

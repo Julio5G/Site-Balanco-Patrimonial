@@ -1,0 +1,36 @@
+:root{
+    --color-background: #202529;
+    --color-green: #1BC6B4;
+    --color-bars-principal: #32383D;
+    --color-bars-secondary: #444d55;
+    --color-green-button: #1BC6B4;
+    --color-red-button: #F93636;
+
+    --width-patBalance: 100rem;
+    --height-tables: 21.5rem;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+	border: 0;
+	font-size: 100%;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    background-color: rgba(20, 20, 20, 0.9);
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    
+    width: 100%;
+}

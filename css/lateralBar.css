@@ -1,0 +1,34 @@
+.lateralBar {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    
+    padding: 1rem;
+    width: 18rem;
+    border-right: 2px solid var(--color-green);
+    border-radius: 10px 0 0 10px;
+
+    background: var(--color-bars-secondary);
+}
+
+.lateralBar > h1 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #fff;
+}
+
+.addButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    width: 6.25rem;
+    height: 6.25rem;
+    
+    cursor: pointer;
+    color: white;
+    font-size: 5rem;
+
+    background: #202529;
+}
